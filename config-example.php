@@ -11,4 +11,5 @@ $crowd_url = 'http://crowd.YOUR.DOMAIN/crowd/services/SecurityServer?wsdl';
 // The details of how the script can access the RPC.
 $rpc_ip = '192.168.1.2';
 $rpc_port = '23';
-
+$rpc_user = 'web'; //make sure this is not using the 'admin' user. 
+$rpc_pass = 'admin';
